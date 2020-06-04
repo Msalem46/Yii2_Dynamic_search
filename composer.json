@@ -1,0 +1,35 @@
+{
+  "name": "msalem46/yii2_dynamic_search",
+  "type": "yii2-extension",
+
+  "description": "yii2-dynamic-search is a collection of useful helpers, widgets etc. extending the basic functionality of Yii2",
+  "keywords": ["yii2", "dynamic", "search"],
+
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Salem",
+      "email": "msej.990@gmail.com",
+      "homepage": "https://github.com/Msalem46"
+    }
+  ],
+
+  "minimum-stability": "stable",
+  "support": {
+    "source": "https://github.com/Msalem46/Yii2_Dynamic_search",
+    "issues": "https://github.com/Msalem46/Yii2_Dynamic_search/issues"
+  },
+
+  "require": {
+    "php": ">=7.1.0",
+
+    "yiisoft/yii2": "2.*",
+    "yiisoft/yii2-bootstrap": "~2.0.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "DSearch\\dynamicSearch\\": "src/"
+    }
+  }
+}
